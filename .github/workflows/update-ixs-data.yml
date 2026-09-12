@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/update-data.mjs'
+      - '.github/workflows/update-ixs-data.yml'
 
 permissions:
   contents: write
