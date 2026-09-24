@@ -1,12 +1,12 @@
 {
   "mirror": {
-    "mirroredAt": "2026-09-24T10:58:15.257Z",
+    "mirroredAt": "2026-09-24T11:19:39.747Z",
     "source": "https://ixs-market-data.heyjarvis90.workers.dev",
     "repository": "hellojarvis101/ixs-market-data",
     "workerAgeMinutesAtMirror": 0
   },
   "status": "ok",
-  "generatedAt": "2026-09-24T10:58:15.226Z",
+  "generatedAt": "2026-09-24T11:19:39.709Z",
   "asset": {
     "name": "IX Swap",
     "symbol": "IXS",
@@ -24,8 +24,8 @@
     },
     "hourlyHistory": {
       "candleCount": 500,
-      "firstTimestamp": 1788447600000,
-      "lastTimestamp": 1790244000000,
+      "firstTimestamp": 1788451200000,
+      "lastTimestamp": 1790247600000,
       "coverageHours": 500,
       "coverageDays": 20.833333333333332,
       "full30dCoverage": false
@@ -38,7 +38,7 @@
     "spreadPercent": 0.3289473684210621,
     "high24h": 0.0626,
     "low24h": 0.0576,
-    "quoteVolume24h": 62418.274,
+    "quoteVolume24h": 62384.2339,
     "priceChange24hCalculatedPercent": -0.6535947712418261
   },
   "mexc": {
@@ -52,16 +52,16 @@
         "prevClosePrice": "0.0612",
         "lastPrice": "0.0608",
         "bidPrice": "0.0607",
-        "bidQty": "1230.7",
+        "bidQty": "11280.66",
         "askPrice": "0.0609",
         "askQty": "97.4",
         "openPrice": "0.0612",
         "highPrice": "0.0626",
         "lowPrice": "0.0576",
-        "volume": "1030431.1",
-        "quoteVolume": "62418.274",
-        "openTime": 1790247483068,
-        "closeTime": 1790247495040,
+        "volume": "1029923.46",
+        "quoteVolume": "62384.2339",
+        "openTime": 1790248743067,
+        "closeTime": 1790248779440,
         "count": null
       }
     },
@@ -69,19 +69,15 @@
       "ok": true,
       "status": 200,
       "data": {
-        "lastUpdateId": 175585066,
+        "lastUpdateId": 175585990,
         "bids": [
           [
             "0.0607",
-            "1230.70"
+            "11280.66"
           ],
           [
             "0.0606",
-            "10049.96"
-          ],
-          [
-            "0.0605",
-            "12306.71"
+            "9727.38"
           ],
           [
             "0.0604",
@@ -97,19 +93,39 @@
           ],
           [
             "0.0599",
-            "100.00"
+            "1035.78"
+          ],
+          [
+            "0.0598",
+            "3514.19"
+          ],
+          [
+            "0.0596",
+            "247.11"
           ],
           [
             "0.0579",
-            "4579.97"
+            "34.00"
           ],
           [
             "0.0578",
-            "279.90"
+            "34.00"
           ],
           [
             "0.0577",
             "34.00"
+          ],
+          [
+            "0.0561",
+            "623.89"
+          ],
+          [
+            "0.0560",
+            "625.00"
+          ],
+          [
+            "0.0559",
+            "626.12"
           ],
           [
             "0.0558",
@@ -121,7 +137,7 @@
           ],
           [
             "0.0480",
-            "3193.73"
+            "2585.40"
           ],
           [
             "0.0449",
@@ -178,7 +194,7 @@
             "9167.98"
           ],
           [
-            "0.0620",
+            "0.0622",
             "9167.98"
           ],
           [
@@ -554,33 +570,13 @@
             "100.00"
           ]
         ],
-        "timestamp": 1790247477867
+        "timestamp": 1790248768567
       }
     },
     "candles15m": {
       "ok": true,
       "status": 200,
       "data": [
-        [
-          1790161200000,
-          "0.0609",
-          "0.0613",
-          "0.0609",
-          "0.0609",
-          "9142.59",
-          1790162100000,
-          "558.5356"
-        ],
-        [
-          1790162100000,
-          "0.0609",
-          "0.0612",
-          "0.0605",
-          "0.0605",
-          "7348.15",
-          1790163000000,
-          "447.9375"
-        ],
         [
           1790163000000,
           "0.0605",
@@ -1517,9 +1513,29 @@
           "0.0609",
           "0.0607",
           "0.0608",
-          "9481.17",
+          "9945.45",
           1790247600000,
-          "576.641"
+          "604.8741"
+        ],
+        [
+          1790247600000,
+          "0.0608",
+          "0.0609",
+          "0.0607",
+          "0.0608",
+          "8487.4",
+          1790248500000,
+          "516.0596"
+        ],
+        [
+          1790248500000,
+          "0.0608",
+          "0.0609",
+          "0.0607",
+          "0.0608",
+          "2079.52",
+          1790249400000,
+          "126.4621"
         ]
       ]
     },
@@ -1527,16 +1543,6 @@
       "ok": true,
       "status": 200,
       "data": [
-        [
-          1788447600000,
-          "0.0538",
-          "0.0542",
-          "0.0531",
-          "0.0541",
-          "53467.63",
-          1788451200000,
-          "2863.3696"
-        ],
         [
           1788451200000,
           "0.0541",
@@ -6523,15 +6529,25 @@
           "0.0612",
           "0.0606",
           "0.0608",
-          "33191.86",
+          "33656.14",
           1790247600000,
-          "2021.191"
+          "2049.4241"
+        ],
+        [
+          1790247600000,
+          "0.0608",
+          "0.0609",
+          "0.0607",
+          "0.0608",
+          "10566.92",
+          1790251200000,
+          "642.5217"
         ]
       ],
       "metadata": {
         "candleCount": 500,
-        "firstTimestamp": 1788447600000,
-        "lastTimestamp": 1790244000000,
+        "firstTimestamp": 1788451200000,
+        "lastTimestamp": 1790247600000,
         "coverageHours": 500,
         "coverageDays": 20.833333333333332,
         "full30dCoverage": false
@@ -6601,7 +6617,7 @@
         "info": {
           "imageUrl": "https://cdn.dexscreener.com/cms/images/02f24e96f0703342119c19a2a78e349cad7bcfeec7977cf90a94469d17cf86db?width=800&height=800&quality=95&format=auto",
           "header": "https://cdn.dexscreener.com/cms/images/b5bdf70dd4095c80b97caff924def6b111d5a21138c8a51da1c515a0badfae28?width=1500&height=500&quality=95&format=auto",
-          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x73d7c860998ca3c01ce8c808f5577d94d545d1b4?timestamp=1790247300000",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x73d7c860998ca3c01ce8c808f5577d94d545d1b4?timestamp=1790248500000",
           "websites": [
             {
               "url": "https://ixs.finance",
@@ -6663,22 +6679,22 @@
           },
           "h6": {
             "buys": 2,
-            "sells": 4
+            "sells": 3
           },
           "h24": {
             "buys": 28,
-            "sells": 32
+            "sells": 31
           }
         },
         "volume": {
-          "h24": 20409.83,
-          "h6": 2516.84,
+          "h24": 20032,
+          "h6": 2473.39,
           "h1": 0,
           "m5": 0
         },
         "priceChange": {
-          "h6": -0.64,
-          "h24": -0.08
+          "h6": -0.31,
+          "h24": -1.39
         },
         "liquidity": {
           "usd": 267822.49,
@@ -6691,7 +6707,7 @@
         "info": {
           "imageUrl": "https://cdn.dexscreener.com/cms/images/02f24e96f0703342119c19a2a78e349cad7bcfeec7977cf90a94469d17cf86db?width=800&height=800&quality=95&format=auto",
           "header": "https://cdn.dexscreener.com/cms/images/b5bdf70dd4095c80b97caff924def6b111d5a21138c8a51da1c515a0badfae28?width=1500&height=500&quality=95&format=auto",
-          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x73d7c860998ca3c01ce8c808f5577d94d545d1b4?timestamp=1790247300000",
+          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x73d7c860998ca3c01ce8c808f5577d94d545d1b4?timestamp=1790248500000",
           "websites": [
             {
               "url": "https://ixs.finance",
