@@ -1,12 +1,12 @@
 {
   "mirror": {
-    "mirroredAt": "2026-09-26T22:43:16.313Z",
+    "mirroredAt": "2026-09-26T22:56:44.760Z",
     "source": "https://ixs-market-data.heyjarvis90.workers.dev",
     "repository": "hellojarvis101/ixs-market-data",
     "workerAgeMinutesAtMirror": 0
   },
   "status": "ok",
-  "generatedAt": "2026-09-26T22:43:16.284Z",
+  "generatedAt": "2026-09-26T22:56:44.734Z",
   "asset": {
     "name": "IX Swap",
     "symbol": "IXS",
@@ -20,7 +20,7 @@
       "depth": true,
       "candles15m": true,
       "candles60m": true,
-      "dex": true
+      "dex": false
     },
     "hourlyHistory": {
       "candleCount": 500,
@@ -38,8 +38,8 @@
     "spreadPercent": 0.571102227298687,
     "high24h": 0.0882,
     "low24h": 0.0775,
-    "quoteVolume24h": 67593.704,
-    "priceChange24hCalculatedPercent": 12.59640102827764
+    "quoteVolume24h": 67910.5509,
+    "priceChange24hCalculatedPercent": 12.74131274131273
   },
   "mexc": {
     "ticker": {
@@ -47,21 +47,21 @@
       "status": 200,
       "data": {
         "symbol": "IXSUSDT",
-        "priceChange": "0.0098",
-        "priceChangePercent": "0.1259",
-        "prevClosePrice": "0.0778",
+        "priceChange": "0.0099",
+        "priceChangePercent": "0.1274",
+        "prevClosePrice": "0.0777",
         "lastPrice": "0.0876",
         "bidPrice": "0.0873",
-        "bidQty": "2490.08",
+        "bidQty": "2976.1",
         "askPrice": "0.0878",
         "askQty": "5392.36",
-        "openPrice": "0.0778",
+        "openPrice": "0.0777",
         "highPrice": "0.0882",
         "lowPrice": "0.0775",
-        "volume": "830432.16",
-        "quoteVolume": "67593.704",
-        "openTime": 1790462577036,
-        "closeTime": 1790462596122,
+        "volume": "833530.55",
+        "quoteVolume": "67910.5509",
+        "openTime": 1790463364040,
+        "closeTime": 1790463404002,
         "count": null
       }
     },
@@ -69,27 +69,23 @@
       "ok": true,
       "status": 200,
       "data": {
-        "lastUpdateId": 175753079,
+        "lastUpdateId": 175753214,
         "bids": [
           [
             "0.0873",
-            "2490.08"
+            "2976.10"
           ],
           [
             "0.0872",
-            "81.52"
+            "3744.61"
           ],
           [
             "0.0871",
-            "486.02"
+            "81.61"
           ],
           [
             "0.0870",
             "3744.61"
-          ],
-          [
-            "0.0869",
-            "5315.98"
           ],
           [
             "0.0867",
@@ -100,19 +96,11 @@
             "7281.35"
           ],
           [
-            "0.0823",
-            "100.27"
+            "0.0837",
+            "100.63"
           ],
           [
-            "0.0822",
-            "100.39"
-          ],
-          [
-            "0.0821",
-            "100.51"
-          ],
-          [
-            "0.0819",
+            "0.0836",
             "100.75"
           ],
           [
@@ -149,7 +137,7 @@
           ],
           [
             "0.0758",
-            "725.58"
+            "641.15"
           ],
           [
             "0.0751",
@@ -538,23 +526,13 @@
             "0.18"
           ]
         ],
-        "timestamp": 1790462578367
+        "timestamp": 1790463393367
       }
     },
     "candles15m": {
       "ok": true,
       "status": 200,
       "data": [
-        [
-          1790376300000,
-          "0.0777",
-          "0.0779",
-          "0.0777",
-          "0.0778",
-          "5001.93",
-          1790377200000,
-          "389.1352"
-        ],
         [
           1790377200000,
           "0.0778",
@@ -1500,10 +1478,20 @@
           "0.0875",
           "0.0877",
           "0.0875",
-          "0.0876",
-          "6539.09",
+          "0.0877",
+          "7856.52",
           1790462700000,
-          "572.8482"
+          "688.2909"
+        ],
+        [
+          1790462700000,
+          "0.0877",
+          "0.0877",
+          "0.0875",
+          "0.0877",
+          "6817.76",
+          1790463600000,
+          "597.1855"
         ]
       ]
     },
@@ -6506,10 +6494,10 @@
           "0.0879",
           "0.0882",
           "0.0874",
-          "0.0876",
-          "17046.8",
+          "0.0877",
+          "25181.99",
           1790463600000,
-          "1494.6535"
+          "2207.2817"
         ]
       ],
       "metadata": {
@@ -6524,190 +6512,10 @@
   },
   "dex": {
     "source": "DexScreener",
-    "rawFetch": true,
+    "rawFetch": false,
     "pools": {
-      "uniswapV4": {
-        "chainId": "ethereum",
-        "dexId": "uniswap",
-        "url": "https://dexscreener.com/ethereum/0xd54a5e98dc3d0a90a058d4e46b2db9e7d92dbf50598833035e1f27eac4f23a4f",
-        "pairAddress": "0xd54a5e98dc3d0a90a058d4e46b2db9e7d92dbf50598833035e1f27eac4f23a4f",
-        "labels": [
-          "v4"
-        ],
-        "baseToken": {
-          "address": "0x73d7c860998CA3c01Ce8c808F5577d94d545d1b4",
-          "name": "Ixs Token",
-          "symbol": "IXS"
-        },
-        "quoteToken": {
-          "address": "0x0000000000000000000000000000000000000000",
-          "name": "Ether",
-          "symbol": "ETH"
-        },
-        "priceNative": "0.00003275",
-        "priceUsd": "0.08808",
-        "txns": {
-          "m5": {
-            "buys": 0,
-            "sells": 0
-          },
-          "h1": {
-            "buys": 5,
-            "sells": 0
-          },
-          "h6": {
-            "buys": 22,
-            "sells": 0
-          },
-          "h24": {
-            "buys": 56,
-            "sells": 16
-          }
-        },
-        "volume": {
-          "h24": 62632.38,
-          "h6": 15745.84,
-          "h1": 2363.17,
-          "m5": 0
-        },
-        "priceChange": {
-          "h1": 1.29,
-          "h6": 6.58,
-          "h24": 13.45
-        },
-        "liquidity": {
-          "usd": 591618.08,
-          "base": 2568712,
-          "quote": 135.8646
-        },
-        "fdv": 15791399,
-        "marketCap": 15791399,
-        "pairCreatedAt": 1765371959000,
-        "info": {
-          "imageUrl": "https://cdn.dexscreener.com/cms/images/02f24e96f0703342119c19a2a78e349cad7bcfeec7977cf90a94469d17cf86db?width=800&height=800&quality=95&format=auto",
-          "header": "https://cdn.dexscreener.com/cms/images/b5bdf70dd4095c80b97caff924def6b111d5a21138c8a51da1c515a0badfae28?width=1500&height=500&quality=95&format=auto",
-          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x73d7c860998ca3c01ce8c808f5577d94d545d1b4?timestamp=1790462400000",
-          "websites": [
-            {
-              "url": "https://ixs.finance",
-              "label": "Website"
-            },
-            {
-              "url": "https://www.linkedin.com/company/ixsfinance",
-              "label": "Linkedin"
-            },
-            {
-              "url": "https://www.youtube.com/@ixsfinance",
-              "label": "Youtube"
-            }
-          ],
-          "socials": [
-            {
-              "url": "https://x.com/ixsfinance",
-              "type": "twitter"
-            },
-            {
-              "url": "https://t.me/ixsfinance",
-              "type": "telegram"
-            },
-            {
-              "url": "https://discord.com/invite/KXrGyZQx4t",
-              "type": "discord"
-            }
-          ]
-        }
-      },
-      "uniswapV2": {
-        "chainId": "ethereum",
-        "dexId": "uniswap",
-        "url": "https://dexscreener.com/ethereum/0xc09bf2b1bc8725903c509e8caeef9190857215a8",
-        "pairAddress": "0xC09bf2B1Bc8725903C509e8CAeef9190857215A8",
-        "labels": [
-          "v2"
-        ],
-        "baseToken": {
-          "address": "0x73d7c860998CA3c01Ce8c808F5577d94d545d1b4",
-          "name": "Ixs Token",
-          "symbol": "IXS"
-        },
-        "quoteToken": {
-          "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-          "name": "Wrapped Ether",
-          "symbol": "WETH"
-        },
-        "priceNative": "0.00003293",
-        "priceUsd": "0.08856",
-        "txns": {
-          "m5": {
-            "buys": 0,
-            "sells": 0
-          },
-          "h1": {
-            "buys": 7,
-            "sells": 6
-          },
-          "h6": {
-            "buys": 24,
-            "sells": 20
-          },
-          "h24": {
-            "buys": 65,
-            "sells": 63
-          }
-        },
-        "volume": {
-          "h24": 31089.76,
-          "h6": 8975.6,
-          "h1": 1606.2,
-          "m5": 0
-        },
-        "priceChange": {
-          "h1": 1.45,
-          "h6": 7.73,
-          "h24": 10.08
-        },
-        "liquidity": {
-          "usd": 323905.76,
-          "base": 1828722,
-          "quote": 60.2281
-        },
-        "fdv": 15877297,
-        "marketCap": 15877297,
-        "pairCreatedAt": 1631105969000,
-        "info": {
-          "imageUrl": "https://cdn.dexscreener.com/cms/images/02f24e96f0703342119c19a2a78e349cad7bcfeec7977cf90a94469d17cf86db?width=800&height=800&quality=95&format=auto",
-          "header": "https://cdn.dexscreener.com/cms/images/b5bdf70dd4095c80b97caff924def6b111d5a21138c8a51da1c515a0badfae28?width=1500&height=500&quality=95&format=auto",
-          "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x73d7c860998ca3c01ce8c808f5577d94d545d1b4?timestamp=1790462400000",
-          "websites": [
-            {
-              "url": "https://ixs.finance",
-              "label": "Website"
-            },
-            {
-              "url": "https://www.linkedin.com/company/ixsfinance",
-              "label": "Linkedin"
-            },
-            {
-              "url": "https://www.youtube.com/@ixsfinance",
-              "label": "Youtube"
-            }
-          ],
-          "socials": [
-            {
-              "url": "https://x.com/ixsfinance",
-              "type": "twitter"
-            },
-            {
-              "url": "https://t.me/ixsfinance",
-              "type": "telegram"
-            },
-            {
-              "url": "https://discord.com/invite/KXrGyZQx4t",
-              "type": "discord"
-            }
-          ]
-        }
-      }
+      "uniswapV4": null,
+      "uniswapV2": null
     }
   }
 }
